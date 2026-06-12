@@ -435,7 +435,7 @@ html[lang="ru"] .nav-links {
 .marquee-track {
   display: flex;
   gap: 80px;
-  animation: marquee 36s linear infinite;
+  animation: marquee 9s linear infinite;
   white-space: nowrap;
   font-family: var(--font-display);
   font-style: italic;
@@ -454,7 +454,7 @@ html[lang="ru"] .nav-links {
 }
 @media (max-width: 767px) {
   .marquee-track {
-    animation-duration: 18s;
+    animation-duration: 9s;
   }
 }
 
