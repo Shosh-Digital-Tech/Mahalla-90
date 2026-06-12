@@ -5,12 +5,6 @@ const Banquets = () => {
   const t = useT();
   return (
     <section className="section banquets" id="banquets">
-      <div style={{ position: 'absolute', top: -40, right: -40, color: 'var(--gold-2)', opacity: 0.08 }}>
-        <OrnamentMedallion size={500} />
-      </div>
-      <div style={{ position: 'absolute', bottom: -60, left: -60, color: 'var(--gold-2)', opacity: 0.05 }}>
-        <OrnamentMedallion size={400} />
-      </div>
       <div className="shell" style={{ position: 'relative', zIndex: 1 }}>
         <div className="banquets-grid">
 
@@ -209,9 +203,6 @@ const Reservation = () => {
               <a href="tel:+998771000505" style={{ color: 'var(--gold-2)', fontSize: 22, fontStyle: 'italic' }}>+998 77 100-05-05</a>
             </div>
 
-            <div style={{ position: 'absolute', bottom: -60, right: -60, color: 'var(--gold-2)', opacity: 0.12 }}>
-              <OrnamentMedallion size={300} />
-            </div>
           </div>
 
           {submitted ? (

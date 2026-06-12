@@ -242,9 +242,6 @@ const HeroMosaicVisual = () => (
     display: 'grid', placeItems: 'center',
     overflow: 'hidden',
   }}>
-    <div style={{ color: '#d8a657', opacity: 0.5 }}>
-      <OrnamentMedallion size={520} />
-    </div>
     <div style={{
       position: 'absolute', bottom: '8%', left: '50%',
       transform: 'translateX(-50%)',
@@ -313,9 +310,6 @@ const About = () => {
   const t = useT();
   return (
     <section className="section about" id="about">
-      <div style={{ position: 'absolute', top: 60, right: 60, color: 'var(--cobalt)', opacity: 0.06 }}>
-        <OrnamentMedallion size={420} />
-      </div>
       <div className="shell">
         <div className="about-grid">
           <div>
