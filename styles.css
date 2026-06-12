@@ -453,8 +453,8 @@ html[lang="ru"] .nav-links {
   to { transform: translateX(-50%); }
 }
 @media (max-width: 767px) {
-  .marquee-track {
-    animation-duration: 9s;
+  .marquee {
+    display: none;
   }
 }
 
