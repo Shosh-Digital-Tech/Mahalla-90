@@ -452,6 +452,11 @@ html[lang="ru"] .nav-links {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
+@media (max-width: 767px) {
+  .marquee-track {
+    animation-duration: 18s;
+  }
+}
 
 /* ---------- About ---------- */
 .about {
